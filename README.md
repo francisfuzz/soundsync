@@ -80,3 +80,4 @@ emcc -o opus_wasm.js -s EXPORT_ES6=1 -s MODULARIZE=1 -s SINGLE_FILE=1 -s EXPORT_
 - web browser by Iconstock from the Noun Project
 - Computer by iconcheese from the Noun Project
 - AirPlay by Michiel Willemsen from the Noun Project
+
