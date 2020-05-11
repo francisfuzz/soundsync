@@ -7,7 +7,7 @@ const fs = require('fs');
 async function run() {
   try {
     // Get authenticated GitHub client (Ocktokit): https://github.com/actions/toolkit/tree/master/packages/github#usage
-    const github = new GitHub(process.env.GITHUB_TOKEN);
+    const github = new GitHub(process.env.GITHUB_TOKEN, { log: console });
 
     // Get owner and repo from context of payload that triggered the action
     const { owner, repo } = context.repo;
